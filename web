@@ -1,0 +1,151 @@
+<html>
+    <head>
+<style>
+   
+   .topnav {
+  background-color: #020000bb;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration:none;
+  font-size: 19px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#04AA6D;
+  color:#333;
+}
+
+/*menu bar stlying apply*/
+
+
+
+.menu a:hover {
+  background-color:#04AA6D;
+  color:#333;
+
+}
+
+.topnav2 {
+  background-color: #cf0a0abb;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav2 a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration:none;
+  font-size: 19px;
+}
+
+/* Change the color of links on hover */
+.topnav2 a:hover {
+  background-color:#bebbca;
+  color:#b62f2f;
+}
+
+
+
+</style>
+
+    </head>
+<body>
+
+<h1 style="text-align: center; font-size: 50px;">Com-Tech for Students<hr></h1>
+
+
+
+
+<div class="topnav">
+<a href="#home">Home</a>
+<a href="http://127.0.0.1:5500/course.html">Course</a>
+<a href="#Exam">Exam</a>
+<a href="#Guess Paper">Guess Paper</a>
+<a href="#Online Quiz">Online Quiz</a>
+<a href="Text Book">Text Book</a>
+<a href="Keybook">Notes</a>
+
+
+
+</div>
+
+<p>Our mission is to provide you with everything that is essential for your growth in your educational 
+    career of 9th, 10th, 11th and 12th class. From textbooks to their notes and exercises to papers, 
+    I mean Past Papers, you know. You can access Books, Notes, MCQ’s Tests, and Past Papers for free from our website.
+    Education is a cornerstone of human development and progress. It has the power to shape individuals, communities, and even entire nations. By providing knowledge, skills, 
+    and opportunities, education empowers individuals to pursue their dreams, overcome challenges, and contribute meaningfully to society. In this blog,
+     we will explore the transformative power of 
+    education and its immense impact on personal growth, societal development, and the quest for a better future.</p>
+    
+    <img src="pic01.jpg" alt="Education" weidth="500" height="1000" >
+
+    <div class="topnav2">
+        <a href="#8th Class">8th </a>
+    <a href="#9th Class">9th</a>
+    <a href="#10th Class">10th</a>
+    <a href="#11th Classs">1st year(Part-1)</a>
+    <a href="#2nd year">2nd Year(Part-2)</a>
+    <a href="Past paper">Past Papers</a>
+    <a href="Computer Course">Computer Course</a>
+        
+        </div>
+
+<h3>suggestion</h3>
+
+    <label for="Name">Name</label><br>
+    <input type="Text" id="Name" name="Name">
+
+    <label for="Email">Email</label>
+    <input type="email" id="email" name="email">
+
+    <label for="Class">Class</label>
+    <input type="number" id="Class" name="Class">
+
+    <h3>Comment</h3>
+    <textarea name="Comment" id="Comment" cols="30" rows="10"></textarea>
+
+
+<h2>Sign Up</h2>
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Write name"><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Write Email"><br><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Write Password"><br><br>
+    
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" placeholder="Write confirm Password "><br><br>
+    
+    <input type="submit" value="Sign Up">
+  </form>
+<div style="display:block;">
+
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Write name"><br><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Write Password"><br><br>
+    
+    <input type="submit" value="Login">
+  </form>
+
+
+  
+
+</body>
+</html>
+
